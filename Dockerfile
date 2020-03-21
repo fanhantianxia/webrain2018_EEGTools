@@ -18,19 +18,19 @@ ADD wb_pipeline_EEG_calcLeadfield_standardBEM /root/matlab_script/wb_pipeline_EE
 ADD wb_pipeline_EEG_prepro /root/matlab_script/wb_pipeline_EEG_prepro
 ADD wb_pipeline_EEG_QA /root/matlab_script/wb_pipeline_EEG_QA
 
-ADD avg152t1 /root/matlab_script/avg152t1
-ADD fv_training_MARA /root/matlab_script/fv_training_MARA
-ADD helio /root/matlab_script/helio
-ADD inv_matrix_icbm152 /root/matlab_script/inv_matrix_icbm152
-ADD loreta_ind /root/matlab_script/loreta_ind
-ADD resample_matrix /root/matlab_script/resample_matrix
-ADD standard_bem /root/matlab_script/standard_bem
-ADD standard_BESA /root/matlab_script/standard_BESA
-ADD standard_SCCN /root/matlab_script/standard_SCCN
-ADD standard_vol /root/matlab_script/standard_vol
-ADD standard_vol_SCCN /root/matlab_script/standard_vol_SCCN
-ADD TemplateRed254 /root/matlab_script/TemplateRed254
-ADD TemplateYellow254 /root/matlab_script/TemplateYellow254
+ADD avg152t1.mat /root/matlab_script/avg152t1.mat
+ADD fv_training_MARA.mat /root/matlab_script/fv_training_MARA.mat
+ADD helio.mat /root/matlab_script/helio.mat
+ADD inv_matrix_icbm152.mat /root/matlab_script/inv_matrix_icbm152.mat
+ADD loreta_ind.mat /root/matlab_script/loreta_ind.mat
+ADD resample_matrix.mat /root/matlab_script/resample_matrix.mat.mat
+ADD standard_bem.mat /root/matlab_script/standard_bem.mat
+ADD standard_BESA.mat /root/matlab_script/standard_BESA.mat.mat
+ADD standard_SCCN.mat /root/matlab_script/standard_SCCN.mat
+ADD standard_vol.mat /root/matlab_script/standard_vol.mat
+ADD standard_vol_SCCN.mat /root/matlab_script/standard_vol_SCCN.mat
+ADD TemplateRed254.mat /root/matlab_script/TemplateRed254.mat
+ADD TemplateYellow254.mat /root/matlab_script/TemplateYellow254.mat
 
 RUN chmod 777 -R /root/matlab_script/
 RUN rm -rf /script
